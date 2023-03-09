@@ -1,0 +1,22 @@
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem 0;
+
+  &-img {
+    max-width: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &-header {
+    color: var(--Marine-blue);
+    margin-bottom: 1rem;
+  }
+  &-description {
+    color: var(--Cool-gray);
+    text-align: center;
+    line-height: 1.5rem;
+  }
+}

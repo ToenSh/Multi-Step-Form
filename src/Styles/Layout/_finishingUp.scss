@@ -1,0 +1,60 @@
+.summary {
+  margin-top: 1.75rem;
+  padding-inline: 1.25rem;
+
+  &-addons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  &-addons > p,
+  &-total > p {
+    color: var(--Cool-gray);
+  }
+  &-addons > span {
+    color: var(--Marine-blue);
+  }
+
+  &-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  &-total > span {
+    color: var(--Purplish-blue);
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+}
+.plan {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
+  margin-bottom: 2rem;
+
+  &-header {
+    color: var(--Marine-blue);
+  }
+  &-price {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+    align-self: center;
+    justify-self: right;
+    color: var(--Marine-blue);
+    font-weight: 600;
+  }
+}
+
+.plan::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: var(--Light-gray);
+  bottom: -1rem;
+}
+
+.plan > a {
+  color: var(--Cool-gray);
+}

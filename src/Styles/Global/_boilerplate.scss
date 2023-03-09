@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  background-color: var(--Magnolia);
+}
+
+main {
+  margin-top: 6.5rem;
+}

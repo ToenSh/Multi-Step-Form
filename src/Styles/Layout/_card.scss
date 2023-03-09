@@ -1,0 +1,15 @@
+.card {
+  background-color: var(--White);
+  padding: 1.5rem 1.25rem;
+  margin-inline: 0.75rem;
+  border-radius: 1rem;
+
+  &-header {
+    color: var(--Marine-blue);
+  }
+  &-description {
+    color: var(--Cool-gray);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+}

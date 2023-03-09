@@ -1,0 +1,26 @@
+footer {
+  background-color: var(--White);
+  position: absolute;
+  bottom: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.go-back {
+  color: var(--Cool-gray);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.next-step {
+  background-color: var(--Marine-blue);
+  color: var(--White);
+  font-family: inherit;
+  font-size: 1rem;
+  border-style: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.35rem;
+}
