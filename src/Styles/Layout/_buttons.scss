@@ -1,12 +1,12 @@
 footer {
   background-color: var(--White);
-  position: absolute;
-  bottom: 0;
-  min-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .go-back {

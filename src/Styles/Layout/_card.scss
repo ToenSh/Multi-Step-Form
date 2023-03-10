@@ -1,8 +1,13 @@
 .card {
   background-color: var(--White);
-  padding: 1.5rem 1.25rem;
-  margin-inline: 0.75rem;
+  padding: 2rem 1.75rem;
   border-radius: 1rem;
+  max-width: 35rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  top: -3.5rem;
 
   &-header {
     color: var(--Marine-blue);

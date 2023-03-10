@@ -3,10 +3,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 10rem;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 0rem;
 }
 
 nav {
@@ -36,4 +32,8 @@ nav {
   color: var(--Marine-blue);
   background-color: var(--Light-blue);
   border-color: var(--Light-blue);
+}
+
+.step-info {
+  display: none;
 }
